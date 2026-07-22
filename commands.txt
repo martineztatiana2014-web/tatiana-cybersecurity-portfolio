@@ -1,0 +1,23 @@
+Red-Team/Recon/ScanMe-Nmap-Nikto/commands.txt
+# Commands Used in ScanMe Recon Lab
+
+# Basic Nmap Scan
+nmap scanme.nmap.org
+
+# Service Version Scan
+nmap -sV -p 22,80,9929,31337 scanme.nmap.org
+
+# Aggressive Scan
+nmap -A scanme.nmap.org
+
+# Nikto Web Vulnerability Scan
+nikto -h scanme.nmap.org
+
+# Test XSS Reflection
+curl "http://scanme.nmap.org/?mod=<script>alert('XSS')</script>"
+
+# Test SQL Debug Parameter
+curl "http://scanme.nmap.org/?sql_debug=1"
+
+# Fingerprint Apache Headers
+nmap --script http-server-header -p 80 scanme.nmap.org
