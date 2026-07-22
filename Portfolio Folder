@@ -1,0 +1,27 @@
+Red-Team/
+    Recon/
+        ScanMe-Nmap-Nikto/
+            report.md
+            commands.txt
+            notes.md
+            screenshots/
+
+Blue-Team/
+    Packet-Analysis/
+    Log-Monitoring/
+
+Purple-Team/
+    Attack-and-Detect/
+    Reports/
+
+Linux-Fundamentals/
+    Commands/
+    Practice-Files/
+
+Networking/
+    Notes/
+    Labs/
+
+Reports/
+    Templates/
+    Completed-Labs/
