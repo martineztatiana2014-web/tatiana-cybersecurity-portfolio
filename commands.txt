@@ -1,5 +1,6 @@
-Red-Team/Recon/ScanMe-Nmap-Nikto/commands.txt
 # Commands Used in ScanMe Recon Lab
+
+WARNING: Only run these commands against approved targets or legal training environments. Do not use Nmap, Nikto, or other scanning tools against systems without explicit permission. This file is part of a learning and documentation portfolio.
 
 # Basic Nmap Scan
 nmap scanme.nmap.org
