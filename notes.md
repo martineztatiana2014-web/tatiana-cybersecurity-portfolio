@@ -1,24 +1,66 @@
-Red-Team/Recon/ScanMe-Nmap-Nikto/notes.md
-# Notes — ScanMe Recon Lab
+# Learning Notes
 
-## 🔥 What I Learned
-- How to run different types of Nmap scans  
-- How to interpret open ports and filtered ports  
-- How to identify potential vulnerabilities using Nikto  
-- How to test server behavior using curl  
-- How to document findings like a real Red Team analyst  
+These notes record my cybersecurity learning in plain language. They are allowed to include questions, mistakes, and topics I need to review. Learning is the goal; perfect wording is not required.
 
-## 🔥 Mistakes / Fixes
-- Learned to wait for Nikto to finish (it runs many tests)
-- Remembered to use quotes around curl URLs with parameters
+## Current learning stage
 
-## 🔥 Next Skills to Practice
-- More Nmap scripts  
-- Basic web exploitation theory  
-- Blue Team detection of scans  
-- Purple Team attack + detect workflow  
+I am a cybersecurity student building foundational skills. I am still learning how files, logs, commands, repositories, and pipelines work. When something is unfamiliar, I will slow down, ask questions, and document what I understand.
 
-## 🔥 Personal Notes
-This was my first full Red Team recon lab.  
-I successfully scanned a legal target, interpreted results, and documented everything.  
-This will be the first project in my cybersecurity portfolio.
+## What I am practicing
+
+- Linux and command-line fundamentals
+- Networking concepts
+- Reconnaissance and service identification
+- Log and packet analysis
+- Defensive monitoring
+- Purple Team concepts
+- Clear security documentation
+- GitHub organization and version control
+
+## Simple vocabulary
+
+- **Repository:** A project space that stores files and their history.
+- **Branch:** A safe line of work where changes can be made without changing the main version.
+- **Commit:** A saved group of changes with a message explaining what changed.
+- **Log:** A record of events produced by a computer, application, or network device.
+- **Pipeline:** Automated steps that check, build, test, or deploy a project.
+- **Finding:** An observation that may need investigation; it is not automatically a confirmed vulnerability.
+- **Authorized target:** A system I own or have explicit permission to test.
+
+## Lab reflection template
+
+### Date
+
+<!-- Add the date here. -->
+
+### Lab or topic
+
+<!-- What did I study or practice? -->
+
+### Goal
+
+<!-- What was I trying to understand? -->
+
+### What I did
+
+<!-- Describe the activity in simple steps. Do not include secrets. -->
+
+### What I observed
+
+<!-- Record outputs or behavior without claiming more than the evidence shows. -->
+
+### What I learned
+
+<!-- Explain the lesson in my own words. -->
+
+### What confused me
+
+<!-- Questions are part of learning. -->
+
+### Next small step
+
+<!-- Choose one realistic follow-up action. -->
+
+## Safety reminder
+
+I will practice only in approved labs and authorized environments. I will never put passwords, private keys, wallet recovery phrases, API keys, access tokens, or private personal information in this repository.
