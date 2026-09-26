@@ -1,77 +1,72 @@
 # Tatiana — Cybersecurity Portfolio
 
-Welcome to my cybersecurity learning portfolio.  
-I am an aspiring cybersecurity professional focused on Red Team, Blue Team, and Purple Team operations. This repository documents my hands‑on labs, tools, notes, and progress as I build real technical skills through practical exercises and structured training.
+Welcome to my hands-on cybersecurity portfolio. I am developing practical skills across **offensive security, defensive security, and Purple Team operations** through labs, technical notes, reports, and security tooling.
 
----
+> All testing documented here is performed in authorized labs or against explicitly permitted targets. Never scan or test systems without permission.
 
-## 🔥 About Me
+## About Me
 
-I am actively developing my cybersecurity skillset through daily practice, guided labs, and real‑world tools. My focus is on understanding both offensive and defensive security so I can grow into a well‑rounded Purple Team practitioner.
+I learn by doing: building labs, collecting evidence, analyzing results, documenting lessons learned, and connecting offensive activity to defensive detection and response.
 
-I learn by doing — scanning, analyzing, documenting, and breaking down each step of every lab. This portfolio serves as proof of my progress and a record of my journey into cybersecurity.
+My current focus includes:
 
----
+- Reconnaissance and enumeration
+- Vulnerability assessment
+- Linux and command-line fundamentals
+- Packet capture and network analysis
+- Log analysis and monitoring
+- Attack simulation and detection
+- Clear technical reporting
 
-## 🔥 Skills & Tools
+## Portfolio Map
 
-### **Core Skills**
-- Linux (Ubuntu, WSL2)
-- Command‑line fundamentals
-- Networking basics (TCP/UDP, ports, protocols)
-- Reconnaissance & enumeration
-- Vulnerability scanning
-- Log analysis & monitoring
-- Report writing & documentation
+| Area | What you will find |
+|---|---|
+| [Red Team](Red-Team/) | Authorized reconnaissance, enumeration, and assessment labs |
+| [Blue Team](Blue-Team/) | Packet analysis, monitoring, detection, and investigation work |
+| [Purple Team](Purple-Team/) | Attack-and-detect exercises that connect offensive and defensive workflows |
+| [Linux Fundamentals](Linux-Fundamentals/) | Command-line practice and Linux notes |
+| [Networking](Networking/) | Networking concepts, notes, and labs |
+| [Reports](Reports/) | Reusable report templates and completed lab reports |
+| [Learning Notes](Learning-Notes/) | General technical notes and study material |
 
-### **Tools I Use**
-- **Nmap** — network scanning & enumeration  
-- **Nikto** — web vulnerability scanning  
-- **Hydra** — password attack testing  
-- **SQLmap** — SQL injection testing  
-- **Netcat** — networking, shells, testing  
-- **Tcpdump** — packet capture & analysis  
-- **Curl / Wget** — web requests & downloads  
-- **Git** — version control & documentation  
+## Featured Projects
 
----
+### Red Team — ScanMe Recon Lab
 
-## 🔥 Portfolio Structure
+An authorized reconnaissance exercise using Nmap, Nikto, and curl against `scanme.nmap.org`, a legal practice target. The project covers scan planning, service discovery, web-server enumeration, evidence collection, findings, and lessons learned.
 
-This repository is organized into categories that reflect real cybersecurity workflows:
+- [Project overview](Red-Team/Recon/ScanMe-Nmap-Nikto/README.md)
+- [Commands](Red-Team/Recon/ScanMe-Nmap-Nikto/commands.txt)
+- [Report](Red-Team/Recon/ScanMe-Nmap-Nikto/report.md)
+- [Lessons learned](Red-Team/Recon/ScanMe-Nmap-Nikto/notes.md)
 
+### Purple Team — SSH Brute-Force Lab
 
----
+A controlled lab for documenting simulated authentication attacks, reviewing logs, identifying indicators, and mapping defensive recommendations.
 
-## 🔥 Featured Projects
+- [Repository](https://github.com/martineztatiana2014-web/purple-team-ssh-bruteforce-lab)
 
-### **🔴 Red Team — Recon & Scanning**
-- **ScanMe Nmap Recon Lab**  
-  Full port scan, service enumeration, and vulnerability analysis using Nmap and Nikto.
+## Tools and Technologies
 
-### **🔵 Blue Team — Monitoring & Detection**
-- Packet capture analysis using tcpdump  
-- Log monitoring and pattern recognition
+- **Operating systems:** Linux, Ubuntu, WSL2
+- **Network and web testing:** Nmap, Nikto, curl, Netcat
+- **Traffic and evidence analysis:** tcpdump, packet captures, logs
+- **Development and automation:** Python, Bash, Rust, Docker, Git
+- **Documentation:** Markdown, technical reports, GitHub
 
-### **🟣 Purple Team — Attack & Detect**
-- Combined offensive scan + defensive detection workflow  
-- Documentation of findings and defensive recommendations
+## Current Goals
 
----
+- Improve enumeration and web-security fundamentals
+- Build repeatable Blue Team detection workflows
+- Complete more end-to-end Purple Team scenarios
+- Strengthen evidence-based reporting
+- Continue documenting practical cybersecurity projects
 
-## 🔥 Current Goals
+## Repository Safety and Ethics
 
-- Strengthen Linux command‑line proficiency  
-- Build deeper Red Team skills (enumeration, scanning, web testing)  
-- Improve Blue Team detection and analysis  
-- Complete full Purple Team attack‑and‑detect scenarios  
-- Continue building a strong, hands‑on cybersecurity portfolio
+This portfolio is for education and authorized testing. The presence of a tool or command does not imply permission to use it against an arbitrary target. Follow the target's rules of engagement, minimize impact, protect collected data, and document authorization.
 
----
+## Contact
 
-## 🔥 Contact
-
-This portfolio is updated regularly as I continue learning and practicing cybersecurity.  
-Thank you for visiting and following my journey.
-
-
+This portfolio is updated as I continue learning and practicing cybersecurity. Visit my [GitHub profile](https://github.com/martineztatiana2014-web) to explore the supporting repositories.
